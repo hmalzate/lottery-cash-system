@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numbers-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.moneybuttons-container,
+.numbers-container,
+.numselected-container {
+  margin: 0 15px; /* Adjust this margin as needed */
+}

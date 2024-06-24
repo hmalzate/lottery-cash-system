@@ -1,0 +1,18 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #68696b;
+    width: 200%; 
+    height: 130px;
+    max-width: 1140px;
+    border: 3px solid #0c0c0c;
+  }
+  
+  .header-title {
+    color: #a7f6e7;
+    font-size: 80px;
+    font-style: italic;
+    font-family: fantasy;
+  }
+  

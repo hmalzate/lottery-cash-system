@@ -1,0 +1,35 @@
+body {
+    background-color: #939798;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    height: 520px;
+}
+  
+.button {
+    flex: 1;
+    margin: 10px; 
+    width: 125px;
+    height: 100px;
+    background-color: #6a0355;
+    color: #FFFF;
+    border: 5px solid #1d12f3;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.button:hover {
+    background-color: #f3a407;
+}
+
+.icon img {
+    width: 175px;
+    height: 175px;
+}
+
